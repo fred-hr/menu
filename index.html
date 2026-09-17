@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Projects - Freddy Campuzano</title>
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+    <!-- FONDO DECORATIVO -->
+    <div class="fondoArcade">
+        <span>🎮</span>
+        <span>👾</span>
+        <span>🍋</span>
+        <span>⭐</span>
+        <span>🕹️</span>
+        <span>💻</span>
+    </div>
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+
+        <div class="contenedorLogo">
+            <img src="KRAKEDEV.png"
+                alt="KrakeDev Escuela de Programación"
+                class="logoKrakeDev">
+        </div>
+
+        <p class="etiquetaSuperior">★ ARCADE PROJECTS ★</p>
+
+        <h1>PORTAFOLIO DE PROYECTOS</h1>
+
+        <p id="textoDinamico" class="textoDinamico">
+            Cargando...
+        </p>
+
+    </header>
+    <main class="contenedor">
+        <!-- PRESENTACION -->
+        <section class="presentacion">
+            <div class="zonaAvatar">
+                <div class="circuloAvatar">
+                    <img
+                        src="avatar.png"
+                        alt="Avatar gamer de Freddy"
+                        class="avatar"
+                    >
+                </div>
+                <div class="estadoJugador">
+                    <span class="puntoOnline"></span>
+                    PLAYER ONLINE
+                </div>
+            </div>
+            <div class="datosAutor">
+                <h2>
+                    Freddy Campuzano
+                </h2>
+                <p class="nickname">
+                    🎮 Nickname: Mr.nice
+                </p>
+                <p class="descripcionAutor">
+                    Bienvenido a mi portafolio arcade.
+                    Aquí encontrarás los proyectos desarrollados
+                    durante mi proceso de aprendizaje en programación,
+                    aplicando HTML, CSS y JavaScript.
+                </p>
+                <div class="estadisticas">
+                    <div>
+                        <span id="numeroProyectos">2</span>
+                        <p>PROYECTOS</p>
+                    </div>
+                    <div>
+                        <span>HTML</span>
+                        <p>ESTRUCTURA</p>
+                    </div>
+                    <div>
+                        <span>CSS</span>
+                        <p>DISEÑO</p>
+                    </div>
+                    <div>
+                        <span>JS</span>
+                        <p>LÓGICA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INFORMACION CURSO -->
+        <section class="curso">
+            <p class="miniTitulo">
+                MODO APRENDIZAJE
+            </p>
+            <h2>
+                💻 CURSO DE PROGRAMACIÓN CON KRAKEDEV
+            </h2>
+            <p>
+                Durante el curso he desarrollado proyectos utilizando
+                HTML para la estructura, CSS para el diseño y JavaScript
+                para agregar lógica e interacción.
+
+                También he trabajado con Canvas, funciones, eventos,
+                variables, condiciones, Git, GitHub y publicación
+                de proyectos mediante Vercel.
+            </p>
+        </section>
+        <!-- PROYECTOS -->
+        <section class="zonaProyectos">
+            <div class="tituloProyectos">
+                <p>
+                    SELECT GAME
+                </p>
+                <h2>
+                    🎮 MIS PROYECTOS
+                </h2>
+            </div>
+            <div class="proyectos">
+                <!-- JUEGO LIMONES -->
+                <article class="tarjeta tarjetaLimones">
+                    <div class="numeroJuego">
+                        01
+                    </div>
+                    <div class="iconoJuego">
+                        🍋
+                    </div>
+                    <h3>
+                        ATRAPAR LIMONES
+                    </h3>
+                    <p>
+                        Juego desarrollado con Canvas y JavaScript.
+                        El jugador debe moverse para atrapar limones,
+                        ganar puntos, conservar sus vidas y superar
+                        los diferentes niveles de velocidad.
+                    </p>
+                    <div class="caracteristicas">
+                        <span>🏆 Puntaje</span>
+                        <span>❤️ Vidas</span>
+                        <span>⚡ Velocidad</span>
+                        <span>⌨ Teclado</span>
+                    </div>
+                    <a
+                        href="https://juego-limones-theta-ten.vercel.app/"
+                        rel="noopener noreferrer"
+                        class="botonJugar"
+                    >
+                        ▶ JUGAR AHORA
+                    </a>
+                </article>
+                <!-- JUEGO CAZANDO -->
+                <article class="tarjeta tarjetaCazando">
+                    <div class="numeroJuego">
+                        02
+                    </div>
+                    <div class="iconoJuego">
+                        🐱
+                    </div>
+                    <h3>
+                        JUEGO CAZANDO
+                    </h3>
+                    <p>
+                        Proyecto realizado para practicar Canvas,
+                        posiciones X y Y, variables, constantes y
+                        funciones reutilizables para dibujar elementos
+                        dentro de un escenario.
+                    </p>
+                    <div class="caracteristicas">
+                        <span>🎨 Canvas</span>
+                        <span>📍 Posiciones</span>
+                        <span>⚙ Funciones</span>
+                        <span>🎮 Juego</span>
+                    </div>
+                    <a
+                        href="https://juego-cazando-mr-nice1.vercel.app/"
+                        rel="noopener noreferrer"
+                        class="botonJugar"
+                    >
+                        ▶ JUGAR AHORA
+                    </a>
+                </article>
+            </div>
+        </section>
+        <!-- PROXIMOS PROYECTOS -->
+        <section class="proximamente">
+            <div class="iconoProximamente">
+                🔒
+            </div>
+            <div>
+                <h2>
+                    PRÓXIMO NIVEL
+                </h2>
+                <p>
+                    Nuevos proyectos serán desbloqueados
+                    durante el curso.
+                </p>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <p id="mensajeFooter">
+            🎮 Preparando siguiente nivel...
+        </p>
+        <p>
+            Freddy Campuzano • 2026
+        </p>
+        <p class="tecnologias">
+            HTML • CSS • JAVASCRIPT • GIT • GITHUB • VERCEL
+        </p>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+
+</html>
