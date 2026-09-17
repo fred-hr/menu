@@ -1,4 +1,11 @@
+promt 1
 Actúa como diseñador y programador web. Ayúdame a mejorar mi menú con HTML y CSS, con un estilo arcade, colores neón y botones llamativos.
+
+prompt 2
 Mejora el encabezado del menú y agrega el logo de KrakeDev para que se vea más gamer y combine con la página.
+
+prompt 3
 Ayúdame a mejorar las tarjetas de los proyectos con efectos hover, bordes brillantes y un diseño más atractivo.
+
+prompt 4
 Haz que el menú se vea bien también en celular usando CSS responsive, sin cambiar la estructura principal del HTML.
